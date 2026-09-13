@@ -1,5 +1,5 @@
 x-labels: &labels
-  sernafa.gitops-lab.owner: "${LAB_ID:?Ejecuta los scripts del laboratorio}"
+  zabbix.gitops-lab.owner: "${LAB_ID:?Ejecuta los scripts del laboratorio}"
 x-db: &db
   DB_SERVER_HOST: postgres
   POSTGRES_DB: zabbix
@@ -44,4 +44,4 @@ volumes:
 networks:
   default:
     external: true
-    name: sernafa-gitops-lab
+    name: zabbix-gitops-lab

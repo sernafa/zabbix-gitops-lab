@@ -3,7 +3,7 @@
 Base del laboratorio con dos componentes:
 
 - **Zabbix con Docker Compose**: servidor, PostgreSQL y frontend web, con imágenes Alpine.
-- **Un clúster k3d principal**, `sernafa-central`, con Argo CD para gestionar las aplicaciones y los clústeres que se incorporen después.
+- **Un clúster k3d principal**, `zabbix-proxy-central`, con Argo CD para gestionar las aplicaciones y los clústeres que se incorporen después.
 
 Argo CD se instala con sus componentes estándar, incluido su controlador de
 aplicaciones. Esta etapa deja preparada la plataforma central; el registro de
